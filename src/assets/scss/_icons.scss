@@ -1,0 +1,236 @@
+$eotPath: '../icons/icomoon.eot?sirizn';
+$ttfPath: '../icons/icomoon.ttf?sirizn';
+
+@font-face {
+  font-family: 'icomoon';
+  src: url($eotPath);
+  src: url($ttfPath) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.BraftEditor-container,
+.braft-modal-root{
+  
+  [class^="braft-icon-"], [class*=" braft-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .braft-icon-format_clear:before {
+    content: "\e239";
+  }
+  .braft-icon-hr:before {
+    content: "\e925";
+  }
+  .braft-icon-colorize:before {
+    content: "\e3b8";
+  }
+  .braft-icon-crop_free:before {
+    content: "\e3c2";
+  }
+  .braft-icon-pause:before {
+    content: "\e034";
+  }
+  .braft-icon-play_arrow:before {
+    content: "\e037";
+  }
+  .braft-icon-bin:before {
+    content: "\e9ac";
+  }
+  .braft-icon-replay:before {
+    content: "\e042";
+  }
+  .braft-icon-tune:before {
+    content: "\e429";
+  }
+  .braft-icon-close:before {
+    content: "\e913";
+  }
+  .braft-icon-align-center:before {
+    content: "\e028";
+  }
+  .braft-icon-align-justify:before {
+    content: "\e026";
+  }
+  .braft-icon-align-left:before {
+    content: "\e027";
+  }
+  .braft-icon-align-right:before {
+    content: "\e029";
+  }
+  .braft-icon-image-right:before {
+    content: "\e914";
+  }
+  .braft-icon-image-left:before {
+    content: "\e91e";
+  }
+  .braft-icon-music:before {
+    content: "\e90e";
+  }
+  .braft-icon-camera:before {
+    content: "\e911";
+  }
+  .braft-icon-copy:before {
+    content: "\e92c";
+  }
+  .braft-icon-file-text:before {
+    content: "\e926";
+  }
+  .braft-icon-film:before {
+    content: "\e91c";
+  }
+  .braft-icon-github:before {
+    content: "\eab0";
+  }
+  .braft-icon-ltr:before {
+    content: "\ea74";
+  }
+  .braft-icon-page-break:before {
+    content: "\ea68";
+  }
+  .braft-icon-pagebreak:before {
+    content: "\ea6e";
+  }
+  .braft-icon-paint-format:before {
+    content: "\e90c";
+  }
+  .braft-icon-paste:before {
+    content: "\e92d";
+  }
+  .braft-icon-pilcrow:before {
+    content: "\ea73";
+  }
+  .braft-icon-pushpin:before {
+    content: "\e946";
+  }
+  .braft-icon-redo:before {
+    content: "\e968";
+  }
+  .braft-icon-rtl:before {
+    content: "\ea75";
+  }
+  .braft-icon-spinner:before {
+    content: "\e980";
+  }
+  .braft-icon-subscript:before {
+    content: "\ea6c";
+  }
+  .braft-icon-superscript:before {
+    content: "\ea6b";
+  }
+  .braft-icon-undo:before {
+    content: "\e967";
+  }
+  .braft-icon-media:before {
+    content: "\e90f";
+  }
+  .braft-icon-add:before {
+    content: "\e918";
+  }
+  .braft-icon-bold:before {
+    content: "\e904";
+  }
+  .braft-icon-code:before {
+    content: "\e903";
+  }
+  .braft-icon-done:before {
+    content: "\e912";
+  }
+  .braft-icon-drop-down:before {
+    content: "\e906";
+  }
+  .braft-icon-drop-up:before {
+    content: "\e909";
+  }
+  .braft-icon-emoji:before {
+    content: "\e91b";
+  }
+  .braft-icon-font-size:before {
+    content: "\e920";
+  }
+  .braft-icon-fullscreen:before {
+    content: "\e910";
+  }
+  .braft-icon-fullscreen-exit:before {
+    content: "\e90d";
+  }
+  .braft-icon-help:before {
+    content: "\e902";
+  }
+  .braft-icon-indent-decrease:before {
+    content: "\e92f";
+  }
+  .braft-icon-indent-increase:before {
+    content: "\e92e";
+  }
+  .braft-icon-info:before {
+    content: "\e901";
+  }
+  .braft-icon-italic:before {
+    content: "\e924";
+  }
+  .braft-icon-link:before {
+    content: "\e91a";
+  }
+  .braft-icon-link-off:before {
+    content: "\e919";
+  }
+  .braft-icon-list:before {
+    content: "\e923";
+  }
+  .braft-icon-list-numbered:before {
+    content: "\e922";
+  }
+  .braft-icon-menu:before {
+    content: "\e908";
+  }
+  .braft-icon-more-horiz:before {
+    content: "\e90b";
+  }
+  .braft-icon-more-vert:before {
+    content: "\e90a";
+  }
+  .braft-icon-not-disturb:before {
+    content: "\e907";
+  }
+  .braft-icon-print:before {
+    content: "\e915";
+  }
+  .braft-icon-quote:before {
+    content: "\e921";
+  }
+  .braft-icon-search:before {
+    content: "\e916";
+  }
+  .braft-icon-settingsx:before {
+    content: "\e917";
+  }
+  .braft-icon-share:before {
+    content: "\e905";
+  }
+  .braft-icon-share-square:before {
+    content: "\e900";
+  }
+  .braft-icon-strikethrough:before {
+    content: "\e91f";
+  }
+  .braft-icon-text-color .path1:before {
+    content: "\e930";
+    opacity: 0.36;
+  }
+  .braft-icon-text-color .path2:before {
+    content: "\e931";
+    margin-left: -1em;
+  }
+  .braft-icon-underlined:before {
+    content: "\e91d";
+  }
+}
